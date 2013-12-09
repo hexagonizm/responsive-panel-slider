@@ -1,0 +1,4 @@
+responsivepanelslider
+=====================
+
+Responsive Panel Slider
