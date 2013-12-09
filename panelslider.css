@@ -1,0 +1,323 @@
+.panel h1 {
+	color: #CCC;
+	font-size: 4em;
+	font-weight: 500;
+	letter-spacing: 0.01em;
+	margin: 0;
+}
+
+.panel h3 {
+	color: #CCCCCC;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	margin: 0 0 18px 0;
+}
+
+.panel {
+	background: #333;
+	padding: 2.5em;
+	display: none;
+}
+
+.panel p {
+	color: #CCC;
+	font-size: 1.5em;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content {
+	width: 100%;
+}
+
+.btn {
+    background: none repeat scroll 0 0 #333333;
+    -webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+    cursor: pointer;
+    float: right;
+    width: 132px;
+    padding: 15px 20px;
+}
+
+.btn-toggle {
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.btn img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	float: left;
+	width: 20px;
+	height: auto;
+}
+
+.btn p {
+    color: #DDD;
+    float: right;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.right input {
+    background-color: #CCCCCC;
+    border: medium none;
+    clear: both;
+    color: #000000;
+    float: left;
+    font-size: 0.8em;
+    margin: 0 0 3px;
+    padding: 15px 3%;
+    width: 94%;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.right input:focus {
+    background-color: #AAAAAA;
+    color: #333333;
+}
+
+.right button.login, button.signup {
+    background-color: transparent;
+    border: none;
+    color: #F7931E;
+    cursor: pointer;
+    clear: none;
+    float: right;
+    font-size: 0.8em;
+    padding: 10px;
+    width: auto;
+}
+
+.right button.login:active, button.signup:active {
+	background-color: #252525;
+}
+
+.right input#submit:active {
+    color: #FFFFFF;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 45%;
+}
+
+.login-form {
+    float: right;
+    margin-right: 5%;
+    max-width: 350px;
+    width: 45%;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+a#forgot-pw {
+    color: #CCCCCC;
+    float: left;
+    font-size: 0.8em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.register-form {
+    float: right;
+    max-width: 350px;
+    width: 50%;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #555555;  
+}
+
+::-webkit-input-placeholder {
+   color: #555555;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #555555; 
+}
+
+:-ms-input-placeholder {  
+   color: #555555; 
+}
+
+@media screen and (max-width: 1920px) {
+	.panel h1 {
+	    font-size: 3em;
+	}
+
+	.panel p {
+		font-size: 1.25em;
+	}
+
+	.btn {
+	    width: 105px;
+	    padding: 15px 20px;
+	}
+
+	.btn p {
+	    color: #DDD;
+	    float: right;
+	    font-size: 14px;
+	    letter-spacing: 0.02em;
+	    margin: 0;
+	}
+
+	.btn img {
+		width: 15px;
+		height: auto;
+		margin: 1px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.right input#submit {
+		float: left;
+	}
+
+	.right {
+	    float: right;
+	    width: 45%;
+	}
+
+	.register-form {
+	    clear: both;
+	    float: right;
+	    margin: 0 0 0.625em 0;
+	    max-width: 350px;
+	    overflow: hidden;
+	    width: 100%;
+	}
+
+	.login-form {
+	    clear: both;
+	    float: right;
+	    margin-right: 0;
+	    max-width: 350px;
+	    overflow: hidden;
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.panel h1 {
+		font-size: 2.25em;
+	}
+
+	.panel p {
+		font-size: 1em;
+	}
+
+	.left {
+		margin: 0 0 2.5em 0;
+		width: 100%;
+	}
+
+	.right {
+		float: left;
+		width: 100%;
+	}
+
+	.login-form {
+		width: 100%;
+		max-width: inherit;
+		-webkit-transition: all 0s ease;
+		-moz-transition: all 0s ease;
+		-ms-transition: all 0s ease;
+		-o-transition: all 0s ease;
+		transition: all 0s ease;
+	}
+
+	.register-form {
+		width: 100%;
+		margin: 0 0 1.25em 0;
+		max-width: inherit;
+		-webkit-transition: all 0s ease;
+		-moz-transition: all 0s ease;
+		-ms-transition: all 0s ease;
+		-o-transition: all 0s ease;
+		transition: all 0s ease;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.panel h1 {
+		font-size: 1.75em;
+	}
+
+	.btn {
+		float: none;
+		margin: 0 auto;
+		overflow: hidden;
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.panel {
+		padding: 1.25em;
+	}
+
+	.panel h3 {
+		text-align: center;
+	}
+
+	.left {
+		text-align: center;
+	}
+}
