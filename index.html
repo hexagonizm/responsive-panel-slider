@@ -1,35 +1,48 @@
-<div class="wrapper">
-    <div class="panel">
-        <div class="content clearfix">
-            <div class="left">
-                <h1>Responsive Slide Panel</h1>
-                <p>Reduce the width of your browser, while the panel is open, to see how it works.</p>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Responsive Panel Slider</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/panelslider.css">
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/panelslider.js"></script>
+	</head>
+	<body>
+        <div class="wrapper">
+            <div class="panel">
+                <div class="content clearfix">
+                    <div class="left">
+                        <h1>Responsive Slide Panel</h1>
+                        <p>Reduce the width of your browser, while the panel is open, to see how it works.</p>
+                    </div>
+                    <div class="right">
+                        <div class="register-form">
+                            <h3>Register new account</h3>
+                            <!-- <form method="post" action="#"> -->
+                                <input id="username" name="username" placeholder="Username" type="text">
+                                <input id="email" name="email" placeholder="E-Mail" type="text">
+                                <input id="password" name="password" placeholder="Password" type="text">
+                                <input id="password-confirm" name="password-confirm" placeholder="Password confirmation" type="text">
+                                <button class="signup">Sign Up</button>
+                            <!-- </form> -->
+                        </div>
+                        <div class="login-form">
+                            <h3>Member Login</h3>
+                            <!-- <form method="post" action="#"> -->
+                                <input id="username" name="username" placeholder="Username" type="text">
+                                <input id="password" name="password" placeholder="Password" type="text">
+                                <button class="login">Login</button>
+                                <a href="#" id="forgot-pw">Forgot Password?</a>
+                            <!-- </form> -->
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                <div class="register-form">
-                    <h3>Register new account</h3>
-                    <!-- <form method="post" action="#"> -->
-                        <input id="username" name="username" placeholder="Username" type="text">
-                        <input id="email" name="email" placeholder="E-Mail" type="text">
-                        <input id="password" name="password" placeholder="Password" type="text">
-                        <input id="password-confirm" name="password-confirm" placeholder="Password confirmation" type="text">
-                        <button class="signup">Sign Up</button>
-                    <!-- </form> -->
-                </div>
-                <div class="login-form">
-                    <h3>Member Login</h3>
-                    <!-- <form method="post" action="#"> -->
-                        <input id="username" name="username" placeholder="Username" type="text">
-                        <input id="password" name="password" placeholder="Password" type="text">
-                        <button class="login">Login</button>
-                        <a href="#" id="forgot-pw">Forgot Password?</a>
-                    <!-- </form> -->
-                </div>
+            <div class="btn">
+                <img src="toggle.png">
+                <p>Open Panel</p>
             </div>
         </div>
-    </div>
-    <div class="btn">
-        <img src="toggle.png">
-        <p>Open Panel</p>
-    </div>
-</div>
+    </body>
+</html>
